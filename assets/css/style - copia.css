@@ -1,0 +1,168 @@
+body {
+    flex-wrap: wrap;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    width: 221px;
+    height: 59px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0px;
+    padding: 7px 0;
+    margin: 0;
+}
+
+/* header {
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    display: flex;
+} */
+
+header {
+    aspect-ratio: 16/9;
+    /* height: 1080px; */
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/bg-header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* header img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+} */
+
+.descripcion {
+    display: flex;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 349px;
+}
+
+.descripcion .texto {
+    padding: 20px 53px;
+}
+
+.descripcion p {
+    padding: 8px 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: left;
+    max-width: 475px;
+}
+
+.descripcion img {
+    height: 237px;
+    width: 399px;
+    padding: 20px 53px;
+}
+
+.caracteristicas {
+    background-color: #1E1A13;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 75px 0 50px;
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: auto;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.ojo,
+.paz,
+.pincel {
+    display: block;
+    width: 16%;
+    min-width: 200px;
+    text-align: center;
+}
+
+i {
+    color: white;
+    font-size: 56px;
+    justify-self: center;
+
+}
+
+.iconos p {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 24px 0 74px;
+    margin: 0;
+}
+
+.galeria {
+    background-color: black;
+    display: flex;
+    margin: 0;
+    padding: 73px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+.galeria img {
+    width: 316px;
+    height: 202px;
+    padding: 0;
+}
+
+footer {
+    background-color: #1E1A13;
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 39px 0;
+    margin: 0;
+}
+
+footer a:link,
+footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #8f897d;
+}
