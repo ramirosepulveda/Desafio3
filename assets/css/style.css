@@ -85,7 +85,7 @@ header {
     display: flex;
     justify-content: center;
     width: 80%;
-    max-width: 770px;
+    max-width: 870px;
     flex-wrap: wrap;
     gap: 32px;
 }
